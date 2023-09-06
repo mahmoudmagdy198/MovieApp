@@ -1,18 +1,12 @@
-import React, { useEffect, useState } from "react";
-import axios from "axios";
-import { useLocation, useNavigate } from "react-router-dom";
-import { auth } from "../firebase";
-import { signOut } from "firebase/auth";
+import React, { useEffect } from "react";
 import Header from "./Header";
 import "./HomePage.css";
 import Loader from "./Loader";
 import CardMovie from "./CardMovie";
-import { Container, Grid ,Box} from "@mui/material";
+import {Grid} from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import {getPopularMovies,getTopRatedMovies} from '../Redux/features/movieSlice'
 import Status from "../Utilits/Status";
-
-
 
 function HomePage() {
   const status = useSelector((state) => state.movie.status)
