@@ -1,0 +1,109 @@
+
+
+.homePage{
+    background-color: #302663;
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgb(0, 0, 0,0.2);
+}
+
+.input_buttonSearch{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+}
+
+.searchBar{
+    background-color: transparent;
+    border: 1px solid #d8cbcb;
+    color: #ffffff;
+    padding: 0.7em;
+    
+}
+
+.buttonSearch{
+    background-color: #ffffff;
+   border: none;
+   cursor: pointer; 
+}
+
+.info{
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin-top: 1.2em;
+}
+
+.poster{
+    width: 100%;
+    border-radius: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    margin: 0.6em 0 0.9em 0;
+}
+
+.rating h4{
+   display: inline-block;
+   font-size: 1.1em; 
+   font-weight: 500;
+}
+
+.details{
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: center;
+    color: #d8cbcb;
+    margin: 0.6em 0;
+    font-weight: 300;
+}
+
+.genre{
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    font-weight: 500;
+    margin-top: 1.2em;
+}
+
+p{
+   font-size: 0.9em;
+   font-weight: 300;
+   line-height: 1.8em;
+   text-align: justify;
+   color: #a9a4be; 
+}
+
+.msgNoName{
+    font-size: 0.95em;
+    gap: 1em;
+    color: #d8cbcb;
+    margin: 0.6em 0; 
+    font-weight: bold;
+}
+

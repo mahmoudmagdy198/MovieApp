@@ -1,0 +1,113 @@
+.movieDetails{
+    position: relative;
+    height: 100%;
+    top: 100px;
+    
+}
+
+.image_detailMovie{
+    display: flex;
+    margin: 100px;
+}
+
+.details{
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    padding-left: 50px;
+    word-spacing: 0.1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.details > h3{
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.rate_time_date{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.rate_time_date > p{
+    margin: 5px;
+    background-color: #00000055;
+    padding: 2px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+}
+
+.genre{
+    display: flex;
+    padding: 10px;
+}
+
+.genre > p{
+    margin-left: 5px;
+    background-color: #00000055;
+    padding: 2px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+}
+
+.production_comps{
+    display: flex;
+    
+}
+.production_comps >div > img{
+    position: relative;
+    width: 50%;
+    height: 20%;
+    padding-left: 10px;
+}
+
+.production_comps>div > p{
+    margin-left: 5px;
+    background-color: #00000055;
+    padding: 2px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+}
+
+.lang_status{
+    display: flex;
+    
+}
+
+.lang_status > p{
+    margin-left: 5px;
+    background-color: #00000055;
+    padding: 2px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+}
+.plotCast_trailer{
+    display: flex;
+    margin-left: 100px;
+    
+}
+.plot_cast > p{
+    margin-left: 5px;
+    
+    padding: 2px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(2px);
+    width: fit-content;
+}
+
+.trailer{
+    padding-left: 20px;
+}
+
+.favIcon{
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 30px;
+  }

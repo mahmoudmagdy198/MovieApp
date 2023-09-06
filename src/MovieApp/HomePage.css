@@ -1,0 +1,41 @@
+
+.popularMovie{
+    
+    margin-left: 5px;
+    position: fixed;
+    top: 100px;
+    color: #F8F1F1;
+    
+}
+
+.topRaterMovie{
+    margin-left: 5px;
+    position: fixed;
+    top: 520px;
+    color: #F8F1F1;
+}
+
+.cards{
+    display: flex;
+    background-color: #0254647a;
+    height:340px;
+    overflow-x: hidden;
+    border: #ff9966 solid;
+}
+
+.counter{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left:50% ;
+    align-items: center;
+}
+
+.counter > button{
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 20px;
+    position: relative;
+    border-radius: 30px;
+}

@@ -1,0 +1,55 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background-color: #025464;
+    background-size: cover; 
+       
+}
+
+
+
+.loginScreen_gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    
+}
+
+.loginScreen_body{
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.loginScreen_body > h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    
+}
+
+.loginScreen_input > form > div >input{
+    padding: 10px;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    margin: 10px;
+    min-width:300px;
+
+}
+.loginScreen_input > form > div >button{
+    color: white;
+    background-color: rgba(153, 100, 44, 0.87);
+    height: 30px;
+    width: 30%;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 30px;
+}
